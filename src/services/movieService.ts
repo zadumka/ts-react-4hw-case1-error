@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Movie } from '../types/movie';
 
-// Missing the results property in interface
+
 interface TMDBResponse {
     total_pages: number;
     page: number;
