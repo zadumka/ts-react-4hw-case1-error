@@ -65,7 +65,7 @@ export default function MovieApp() {
             {selectedMovie && (
                 <MovieModal
                     movie={selectedMovie}
-                    onClose={() => handleSelectMovie(null)}
+                    onClose={() => handleSelectMovie()}
                 />
             )}
             <Toaster position="top-center" />
