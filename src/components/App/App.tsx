@@ -11,7 +11,7 @@ import MovieModal from '../MovieModal/MovieModal';
 import { Movie } from '../../types/movie';
 import css from './App.module.css';
 
-// Помилка: компонент названий не App, а MovieApp
+
 export default function MovieApp() {
     const [selectedMovie, setSelectedMovie] = useState<Movie | null>(null);
     const [query, setQuery] = useState('');
